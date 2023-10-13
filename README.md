@@ -8,6 +8,8 @@
 
 Unser Ziel ist es, Serverless-Lambda-Funktionen als Backend zu verwenden, DynamoDB als Datenbank zu nutzen, S3 für unsere Website zu hosten und das API-Gateway als Middleware zwischen unserer Website und dem Backend einzusetzen.
 
+- ***Die Website kann derzeit [hier](http://client-management-v1.s3-website.eu-central-1.amazonaws.com) besucht werden***
+
 ---
 
 # Steps
@@ -258,7 +260,7 @@ export const handler = async (event) => {
 
 #### Erstelle eine S3 Bucket
 
-- Upload die dateien unter usermanager > dist > usermanager in die S3 bucket
+- Upload die dateien unter  dist > usermanager in die S3 bucket
 - unter properties > Static website hosting > Enable
 - unter Permissions > Block public access > Off
 - unter Permissions > Bucket policy
