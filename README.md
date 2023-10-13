@@ -1,4 +1,4 @@
-# Lambda - API Gateway - S3 - DynamoDB
+# AWS Lambda - API Gateway - S3 - DynamoDB
 
 ![](./assets/User_management.png)
 
