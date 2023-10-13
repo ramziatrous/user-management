@@ -82,7 +82,7 @@ const userId = generateUniqueUserID();
 
 - Unter configuration > Permissions : auf die Role name drücken dann > add permissions > create inline policy > Service : DynamoDB:PutItem Allow
 
-#### 2.1 Erstelle eine zweite lambda function
+#### 2.2 Erstelle eine zweite lambda function
 
 - Function name : getAll_user
 - Runtime : Node.js 18.x
@@ -120,7 +120,7 @@ export const handler = async (event) => {
 
 - Unter configuration > Permissions : auf die Role name drücken dann > add permissions > create inline policy > Service : DynamoDB:Scan Allow
 
-#### 2.2 Erstelle eine Dritte lambda function
+#### 2.3 Erstelle eine Dritte lambda function
 
 - Function name : getById_user
 - Runtime : Node.js 18.x
@@ -177,7 +177,7 @@ export const handler = async (event) => {
 
 - Unter configuration > Permissions : auf die Role name drücken dann > add permissions > create inline policy > Service : DynamoDB:Query Allow
 
-#### 2.3 Erstelle eine vierte lambda function
+#### 2.4 Erstelle eine vierte lambda function
 
 - Function name : delete_user
 - Runtime : Node.js 18.x
