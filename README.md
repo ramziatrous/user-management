@@ -260,7 +260,10 @@ export const handler = async (event) => {
 
 #### Erstelle eine S3 Bucket
 
-- Upload die dateien unter  dist > usermanager in die S3 bucket
+- ändern in usermanader > src > app > Services > user.service.ts : url = DEINE API_Gateway_Endpoint
+- cd usermanager
+- ng build
+- upload die daten unter dist/usermanager in deine S3 Bucket
 - unter properties > Static website hosting > Enable
 - unter Permissions > Block public access > Off
 - unter Permissions > Bucket policy
